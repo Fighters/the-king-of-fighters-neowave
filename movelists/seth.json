@@ -1,0 +1,106 @@
+{
+  "names": {
+    "default": {
+      "roman": "Seth"
+    },
+    "japan": {
+      "roman": "Seth",
+      "original": "セス"
+    }
+  },
+  "images": {
+    "face": "seth.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Elbow Strike",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Circular Throw",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Tackle",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Back Blow",
+        "input": ":b:+[A]"
+      },
+      {
+        "name": "Front Kick",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Sobat",
+        "input": ":b:+[B]"
+      },
+      {
+        "name": "Sliding Kick",
+        "input": ":df:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Rising Sun",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Bow Moon",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Arrow Moon",
+        "input": ":f:+[B] {or} [D]",
+        "after": "Bow Moon"
+      },
+      {
+        "name": "String Moon",
+        "input": ":d:+[B] {or} [D]",
+        "after": "Bow Moon"
+      },
+      {
+        "name": "Moon Set",
+        "input": "{inAir}, :qcf:+[B]"
+      },
+      {
+        "name": "Sail Moon",
+        "input": "{inAir}, :qcf:+[D]"
+      },
+      {
+        "name": "Body Snatcher",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Foot Snatcher",
+        "input": ":d::d:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Dual Rising Sun",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Moon Ocean",
+        "input": ":qcf::df::qcb:+[B] {or} [D]"
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "name": "7 Flash Torso Grab",
+        "input": ":qcf::df::qcb:+[A]+[C]"
+      }
+    ],
+    "{hiddenSuperDesperationMoves}": [
+      {
+        "name": "Bloom of Chrysanthemum",
+        "input": ":f::hcf:+[A]+[C]"
+      }
+    ]
+  }
+}

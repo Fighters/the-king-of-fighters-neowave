@@ -1,0 +1,30 @@
+{
+  "buttons": {
+    "Arcade": [
+      { "image": "layout.webp" },
+      { "A": "A" },
+      { "B": "B" },
+      { "C": "C" },
+      { "D": "D" }
+    ],
+    "Neo Geo": [
+      { "A": "A" },
+      { "B": "B" },
+      { "C": "C" },
+      { "D": "D" }
+    ],
+    "Dreamcast": [
+      { "A": "X" },
+      { "B": "A" },
+      { "C": "Y" },
+      { "D": "B" }
+    ],
+    "PlayStation 2": [
+      { "A": "Square" },
+      { "B": "X" },
+      { "C": "Triangle" },
+      { "D": "Circle" }
+    ]
+  },
+  "hasUpgrades": false
+}

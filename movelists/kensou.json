@@ -1,0 +1,88 @@
+{
+  "names": {
+    "default": {
+      "roman": "Kensou"
+    },
+    "japan": {
+      "roman": "Kensou",
+      "original": "椎 拳崇"
+    }
+  },
+  "images": {
+    "face": "kensou.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Sunda",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Tomoe Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Kobokushu",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Kosentai",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Chokyudan",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Senkyutai",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Ryugaku Sai",
+        "input": ":rdp:+[B] {or} [D]"
+      },
+      {
+        "name": "Ryurenga Chiryu",
+        "input": ":hcf:+[A]"
+      },
+      {
+        "name": "Ryurenga Tenryu",
+        "input": ":hcf:+[C]"
+      },
+      {
+        "name": "Ryuso Geki",
+        "input": "{inAir}, :qcb:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Shinryu Seio Rekkyaku",
+        "input": ":qcf::df::qcb:+[B]"
+      },
+      {
+        "name": "Shinryu Tenbukyaku",
+        "input": ":qcf::df::qcb:+[D]"
+      },
+      {
+        "name": "Nikuman Respect",
+        "input": ":qcb::qcb:+[A] {or} [C]"
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "name": "Senki Hakkei",
+        "input": "{close}, :qcf::qcf:+[A]+[C]"
+      }
+    ],
+    "{hiddenSuperDesperationMoves}": [
+      {
+        "name": "Seigan Rairyu",
+        "input": ":qcf::qcf:+[B]+[D]"
+      }
+    ]
+  }
+}

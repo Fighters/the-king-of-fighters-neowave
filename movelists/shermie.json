@@ -1,0 +1,104 @@
+{
+  "names": {
+    "default": {
+      "roman": "Shermie"
+    },
+    "japan": {
+      "roman": "Shermie",
+      "original": "シェルミー"
+    }
+  },
+  "images": {
+    "face": "shermie.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Shermie Flash Original",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Front Flash",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Baku New Suplex",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Shermie Stand",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Evasive Move",
+        "input": "{press} [A]+[B]+[C]"
+      }
+    ],
+    "{specialMoves}": [
+            {
+        "name": "Shermie Whip",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Shermie Clutch",
+        "input": ":dp:+[B] {or} [D]"
+      },      
+      {
+        "name": "Shermie Spiral",
+        "input": ":hcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Shermie Cute",
+        "input": "{afterShermieCommandThrow}, :qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Diamond Bust",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Axle Spin Kick",
+        "input": ":qcb:+[B] {or} [D]"
+      },      
+      {
+        "name": "F-Captured",
+        "input": ":hcb::f:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Shermie Flash",
+        "input": ":hcb::hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Shermie Carnival",
+        "input": ":hcf::hcf:+[A] {or} [C]"
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "name": "Shermie Flash",
+        "input": ":hcb::hcb:+[A]+[C]"
+      },
+      {
+        "name": "Shermie Carnival",
+        "input": ":hcf::hcf:+[A]+[C]"
+      }
+    ],
+    "{hiddenSuperDesperationMoves}": [
+      {
+        "name": "Lightning Leg Lariat",
+        "input": ":qcf::qcf:+[B]+[D]"
+      }
+    ]
+  },
+  "custom_strings":{
+    "english":{
+      "afterShermieCommandThrow": "after Shermie Whip, Shermie Clutch {or} Shermie Spiral,"
+    },
+    "portuguese":{
+      "afterShermieCommandThrow": "após Shermie Whip, Shermie Clutch {or} Shermie Spiral,"
+    }
+  }
+}

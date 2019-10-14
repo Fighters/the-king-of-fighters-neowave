@@ -1,0 +1,120 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ramon"
+    },
+    "japan": {
+      "roman": "Ramon",
+      "original": "ラモン"
+    }
+  },
+  "images": {
+    "face": "ramon.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Arm Whip",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Flying Mare",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Drop Kick",
+        "input": ":df:+[B]"
+      },
+      {
+        "name": "Wall Jump",
+        "input": "{duringJumpNearWall}, :uf:"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Feint Step",
+        "input": ":qcb:+[A] {or} [C] ({hold} [A] {or} [C] {toDelay})"
+      },
+      {
+        "name": "Rolling Sobat",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "Flying Body Attack",
+        "input": ":dp:+[B] {or} [D]",
+        "after": "Rolling Sobat"
+      },
+      {
+        "name": "Hikiokoshi",
+        "input": ":d::d:+[A] {or} [C]",
+        "after": "Flying Body Attack"
+      },
+      {
+        "name": "Tiger Neck Chancery",
+        "input": ":hcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Somersault",
+        "input": ":hcf:+[B] {or} [D] ({press} [A]+[B]+[C] {toCancel})"
+      },
+      {
+        "name": "Tiger Load (I)",
+        "input": ":rdp:+[B] {or} [D] ({press} [A]+[B]+[C] {toCancel})"
+      },
+      {
+        "name": "Cross Chop",
+        "input": "{onWall}, {press} [D]",
+        "after": "Tiger Load"
+      },
+      {
+        "name": "Tiger Load (II)",
+        "input": ":qcb:+[B] {or} [D] ({press} [A]+[B]+[C] {toCancel})"
+      },
+      {
+        "name": "Force of Will",
+        "input": "{onWall}, :qcf:+[A]",
+        "after": "Tiger Load (II)"
+      },
+      {
+        "name": "Bird of Paradise",
+        "input": ":d::d:+[A] > [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Tiger Spin",
+        "input": ":hcb::hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "El Diablo Amarillo Ramon",
+        "input": ":qcb::db::qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Savage Fire Cat",
+        "input": ":qcf::df::qcb:+[B] {or} [D] ({press} [A]+[B]+[C] {toCancel})"
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "name": "Tiger Spin",
+        "input": ":hcb::hcb:+[A]+[C]"
+      }
+    ],
+    "{hiddenSuperDesperationMoves}": [
+      {
+        "name": "Hypnotic Tiger",
+        "input": ":qcb::db::qcf:+[A]+[C]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "onWall": "on the wall"
+    },
+    "portuguese": {
+      "onWall": "ao chegar na parede"
+    }
+  }
+}

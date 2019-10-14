@@ -1,0 +1,84 @@
+{
+  "names": {
+    "default": {
+      "roman": "Omega Rugal"
+    },
+    "japan": {
+      "roman": "Omega Rugal",
+      "original": "オメガ・ルガール"
+    }
+  },
+  "images": {
+    "face": "omegaRugal.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Scorpion Death Lock",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Scorpion Blow",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Double Tomahawk",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Reppuken",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Kaiser Wave",
+        "input": ":f::hcf:+[A] {or} [C] ({hold} [A] {or} [C] {toCharge})"
+      },
+      {
+        "name": "Dark Barrier",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Genocide Cutter",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "God Press",
+        "input": ":hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Beads Destruction",
+        "input": ":hcb:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Gigantic Pressure",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Destruction Omega",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "name": "Gigantic Pressure",
+        "input": ":qcf::df::qcb:+[A]+[C]"
+      },
+      {
+        "name": "Destruction Omega",
+        "input": ":qcf::qcf:+[B]+[D]"
+      }
+    ],
+    "{hiddenSuperDesperationMoves}": [
+      {
+        "name": "Kaiser Phoenix",
+        "input": ":hcf::hcf:+[A]+[C]"
+      }
+    ]
+  }
+}

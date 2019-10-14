@@ -1,0 +1,84 @@
+{
+  "names": {
+    "default": {
+      "roman": "Saisyu"
+    },
+    "japan": {
+      "roman": "Saisyu",
+      "original": "草薙 柴舟"
+    }
+  },
+  "images": {
+    "face": "saisyu.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Hiuchi Tsuchi",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Issetsu Seoi Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Ge-Shiki: Gotsuchi",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Ge-Shiki: Atamashi",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "108 Shiki: Yamibarai",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "100 Shiki: Oniyaki",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "110 Shiki: Nataguruma",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "720 Shiki: Homuragasane",
+        "input": ":qcb:+[A] {or} [C] ({upTo2x})"
+      },
+      {
+        "name": "427 Shiki: Kamukakari",
+        "input": ":hcb:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Ura 108 Shiki: Orochinagi",
+        "input": ":qcb::db::qcf:+[A] {or} [C] ({hold} [A] {or} [C] {toDelay})"
+      },
+      {
+        "name": "1127 Shiki: Tsumugari",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      }
+    ],
+    "{superDesperationMove}": [
+      {
+        "name": "Ura 108 Shiki: Orochinagi",
+        "input": ":qcb::db::qcf:+[A]+[C] ({hold} [A] {or} [C] {toDelay})"
+      },
+      {
+        "name": "1127 Shiki: Tsumugari",
+        "input": ":qcf::qcf:+[A]+[C]"
+      }
+    ],
+    "{hiddenSuperDesperationMove}": [
+      {
+        "name": "275 Shiki: Nagikama",
+        "input": ":qcb::qcb:+[A]+[C]"
+      }
+    ]
+  }
+}

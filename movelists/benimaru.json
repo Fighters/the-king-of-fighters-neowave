@@ -1,0 +1,89 @@
+{
+  "names": {
+    "default": {
+      "roman": "Benimaru"
+    },
+    "japan": {
+      "roman": "Benimaru",
+      "original": "二階堂 紅丸"
+    }
+  },
+  "images": {
+    "face": "benimaru.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Catch and Shoot",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Front Suplex",
+        "input": "{close}, :b: {or} :f:+[D]"
+      },
+      {
+        "name": "Spinning Knee Drop",
+        "input": "{inAirAndClose}, :b: {or} :d: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Jackknife Kick",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Flying Drill",
+        "input": "{inAir}, :d:+[D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Raijinken",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Air Raijinken",
+        "input": "{inAir}, :qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Iai Geri",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Hando Sandangeri",
+        "input": ":d::u:+[B] {or} [D]",
+        "after": "Iai Geri"
+      },
+      {
+        "name": "Shinku Katategoma",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Benimaru Collider",
+        "input": ":hcb::f:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Raikoken",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Genei Hurricane",
+        "input": ":qcb::qcb:+[B] {or} [D]"
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "name": "Raikoken",
+        "input": ":qcf::qcf:+[A]+[C]"
+      }
+    ],
+    "{hiddenSuperDesperationMoves}": [
+      {
+        "name": "Raijinten",
+        "input": ":f::db::df::b::f:+[A] {or} [B] {or} [C] {or} [D]"
+      }
+    ]
+  }
+}

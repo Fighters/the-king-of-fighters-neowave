@@ -1,0 +1,104 @@
+{
+  "names": {
+    "default": {
+      "roman": "Chris"
+    },
+    "japan": {
+      "roman": "Chris",
+      "original": "クリス"
+    }
+  },
+  "images": {
+    "face": "chris.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Step Turn",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Aerial Drop",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Spinning Array",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Reverse Anchor Kick",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Carry Off Kick",
+        "input": ":df:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Slide Touch",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Hunting Air",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "Shooting Dancer: Thrust",
+        "input": ":hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Shooting Dancer: Step",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Glider Stamp",
+        "input": "{inAir}, :qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Direction Change",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Scramble Dash",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Leading High",
+        "input": ":f:+[D] ~ [B]"
+      },
+      {
+        "name": "Leading Low",
+        "input": ":d:+[D] ~ [B]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Chain Slide Touch",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Twister Drive",
+        "input": ":qcb::qcb:+[B] {or} [D]"
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "name": "Chain Slide Touch",
+        "input": ":qcf::qcf:+[A]+[C]"
+      },
+      {
+        "name": "Twister Drive",
+        "input": ":qcb::qcb:+[B]+[D]"
+      }
+    ],
+    "{hiddenSuperDesperationMoves}": [
+      {
+        "name": "Chris of the Flames of Destiny",
+        "input": ":hcb::hcb:+[A]+[C]"
+      }
+    ]
+  }
+}

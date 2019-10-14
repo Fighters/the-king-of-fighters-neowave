@@ -1,0 +1,183 @@
+{
+  "names": {
+    "default": {
+      "roman": "May Lee"
+    },
+    "japan": {
+      "roman": "May Lee",
+      "original": "メイ・リー"
+    }
+  },
+  "images": {
+    "face": "maylee.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "{normalMode}": [
+          {
+            "name": "Omote Enbu",
+            "input": "{close}, :b: {or} :f:+[C]"
+          },
+          {
+            "name": "Ura Enbu",
+            "input": "{close}, :b: {or} :f:+[D]"
+          }
+        ]
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Henshin",
+        "input": "[A]+[B]+[C]"
+      },
+      {
+        "{heroMode}": [
+          {
+            "name": "Hero's Guard",
+            "input": ":f:+[A]"
+          },
+          {
+            "name": "Sliding",
+            "input": ":df:+[B]"
+          }
+        ]
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "{normalMode}": [
+          {
+            "name": "Self Rebellion",
+            "input": ":hcb:+[B] {or} [D]"
+          },
+          {
+            "name": "Dragon Tail Kick",
+            "input": ":qcf:+[B] {or} [D]"
+          },
+          {
+            "name": "Windmill Kick",
+            "input": "{during1}, [B] {or} [D]"
+          },
+          {
+            "name": "Heart Charge Kick",
+            "input": "{during2}, [B] {or} [D]"
+          },
+          {
+            "name": "Sunrise Kick",
+            "input": "{during1or2}, :uf:+[B] {or} [D]"
+          },
+          {
+            "name": "Sunset Kick",
+            "input": ":d:+[B] {or} [D]",
+            "after": "Sunrise Kick"
+          },
+          {
+            "name": "Tiger Tail Kick",
+            "input": "{during1or2}, :d:+[B] {or} [D]"
+          },
+          {
+            "name": "Head Bone Kick",
+            "input": "{during1or2}, :df:+[B] {or} [D]"
+          },
+          {
+            "name": "Dual Stars Kick",
+            "input": "{during1or2}, :u:+[B] {or} [D]"
+          },
+          {
+            "name": "Self Rebellion (II)",
+            "input": "{during1or2}, :b:+[B] {or} [D]"
+          }
+        ]
+      },
+      {
+        "{heroMode}": [
+          {
+            "name": "Full Swing Chop",
+            "input": ":qcf:+[A] {or} [C]"
+          },
+          {
+            "name": "May Lee Chooop!",
+            "input": ":qcb:+[A] {or} [C]"
+          },
+          {
+            "name": "Shining Thunder Blow",
+            "input": ":qcf:+[B] {or} [D]"
+          },
+          {
+            "name": "May Lee Break",
+            "input": ":hcb::f:+[A] {or} [C]"
+          }
+        ]
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "{normalMode}": [
+          {
+            "name": "Beast God Kick",
+            "input": ":qcb::qcb:+[B] {or} [D]"
+          }
+        ]
+      },
+      {
+        "{heroMode}": [
+          {
+            "name": "May Lee Dynamic!",
+            "input": "{inAir}, :qcf::qcf:+[A] {or} [C]"
+          }
+        ]
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "{normalMode}": [
+          {
+            "name": "Disposition Frog",
+            "input": "[A]+[C] > [B]+[D] > [A]+[B]+[C]"
+          }
+        ]
+      },
+      {
+        "{heroMode}": [
+          {
+            "name": "May The End",
+            "input": ":qcf::qcf:+[A]+[C]"
+          }
+        ]
+      }
+    ],
+    "{hiddenSuperDesperationMoves}": [
+      {
+        "{heroMode}": [
+          {
+            "name": "Key of Victory",
+            "input": ":f: > [B] > [C] > :f: > [C]"
+          }
+        ]
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "normalMode": "Normal Mode",
+      "heroMode": "Hero Mode",
+      "sanrenkyakuObs": "can be used in a chain of 3 attacks with the other Sanrenkyaku moves",
+      "sanrenUshiro": "after other Sanrenkyaku attacks",
+      "sanrenUshiro2": "ends the Sanrenkyaku chain.",
+      "during1": "during Dragon Tail Kick",
+      "during2": "during Windmill Kick",
+      "during1or2": "during Dragon Tail Kick or Windmill Kick"
+    },
+    "portuguese": {
+      "normalMode": "Modo Normal",
+      "heroMode": "Modo Hero",
+      "sanrenkyakuObs": "pode ser usado em uma sequência de 3 ataques com os outros golpes Sanrenkyaku",
+      "sanrenUshiro": "após outros ataques Sanrenkyaku",
+      "sanrenUshiro2": "encerra a sequência de Sanrenkyaku.",
+      "during1": "durante Dragon Tail Kick",
+      "during2": "durante Windmill Kick",
+      "during1or2": "durante Dragon Tail Kick ou Windmill Kick"
+    }
+  }
+}

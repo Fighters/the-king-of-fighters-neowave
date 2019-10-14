@@ -1,0 +1,94 @@
+{
+  "names": {
+    "default": {
+      "roman": "Vice"
+    },
+    "japan": {
+      "roman": "Vice",
+      "original": "バイス"
+    }
+  },
+  "images": {
+    "face": "vice.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Death Blow",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Backlash",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Monstrosity",
+        "input": ":f:+[A]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Mayhem",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Splash Derivation",
+        "input": ":qcf:+[A] {or} [C]",
+        "after": "Mayhem"
+      },
+      {
+        "name": "Outrage",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Ravenous",
+        "input": "{inAir}, :qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Blackend",
+        "input": ":hcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Splash Derivation",
+        "input": ":qcf:+[A] {or} [C]",
+        "after": "Blackend"
+      },
+      {
+        "name": "Deicide",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Gorefest",
+        "input": ":hcb::f:+[C]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Negative Gain",
+        "input": ":hcb::hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Withering Surface",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      }
+    ],
+    "{superDesperationMove}": [
+      {
+        "name": "Negative Gain",
+        "input": ":hcb::hcb:+[B]+[D]"
+      },
+      {
+        "name": "Withering Surface",
+        "input": ":qcf::qcf:+[A]+[C]"
+      }
+    ],
+    "{hiddenSuperDesperationMove}": [
+      {
+        "name": "Overkill",
+        "input": "{inAir}, :db::qcf::uf::u::d:+[A]+[C]"
+      }
+    ]
+  }
+}

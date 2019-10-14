@@ -1,0 +1,24 @@
+{
+    "english": {
+        "normalThrows": "Normal Throws",
+        "commandMoves": "Command Moves",
+        "specialMoves": "Special Moves",
+        "desperationMove": "Desperation Move",
+        "desperationMoves": "Desperation Moves",
+        "superDesperationMove": "Super Desperation Move",
+        "superDesperationMoves": "Super Desperation Moves",
+        "hiddenSuperDesperationMove": "Hidden Super Desperation Move",
+        "hiddenSuperDesperationMoves": "Hidden Super Desperation Moves"
+    },
+    "portuguese": {
+        "normalThrows": "Agarrões Normais",
+        "commandMoves": "Golpes de Comando",
+        "specialMoves": "Golpes Especiais",
+        "desperationMove": "Desperation Move",
+        "desperationMoves": "Desperation Moves",
+        "superDesperationMove": "Super Desperation Move",
+        "superDesperationMoves": "Super Desperation Moves",
+        "hiddenSuperDesperationMove": "Hidden Super Desperation Move",
+        "hiddenSuperDesperationMoves": "Hidden Super Desperation Moves"
+    }
+}

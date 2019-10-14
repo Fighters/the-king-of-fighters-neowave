@@ -1,0 +1,118 @@
+{
+  "names": {
+    "default": {
+      "roman": "Chin"
+    },
+    "japan": {
+      "roman": "Chin",
+      "original": "鎮 元斎"
+    }
+  },
+  "images": {
+    "face": "chin.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Goinshu",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Gyaku Ashi Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Suiho Hyotanshu",
+        "input": ":f:+[A]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hyotan Geki",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Suihaiko",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Funenko",
+        "input": ":qcf:+[A] {or} [C]",
+        "after": "Suihaiko",
+        "extraInfo": "{suihaiko1Use}"
+      },
+      {
+        "name": "Kaitenteki Kutotsuken",
+        "input": ":hcf:+[B] {or} [D]",
+        "after": "Suihaiko",
+        "extraInfo": "{suihaiko1Use}"
+      },
+      {
+        "name": "Ryurin Horai",
+        "input": ":dp:+[A] {or} [C]",
+        "after": "Suihaiko",
+        "extraInfo": "{suihaiko1Use}"
+      },
+      {
+        "name": "Goen Shorai Kai",
+        "input": ":dp:+[B] {or} [D]",
+        "after": "Suihaiko",
+        "extraInfo": "{suihaiko3Uses}"
+      },
+      {
+        "name": "Bogetsu Sui",
+        "input": ":d::d:+[B] {or} [D] ({use} :b: {or} :f: {toMove}; {press} [A]+[B]+[C]+[D] {toCancel})"
+      },
+      {
+        "name": "Roja Hanho",
+        "input": ":u:+[B]",
+        "after": "Bogetsu Sui"
+      },
+      {
+        "name": "Rigyo Hanho",
+        "input": ":u:+[D]",
+        "after": "Bogetsu Sui"
+      },
+      {
+        "name": "Kaitenteki Kutotsuken",
+        "input": ":f:+[B] {or} [D]",
+        "after": "Bogetsu Sui",
+        "extraInfo": "{suihaiko1Use}"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Goran Enho",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Goen Shorai",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "name": "Goran Enho",
+        "input": ":qcf::qcf:+[A]+[C]"
+      }
+    ],
+    "{hiddenSuperDesperationMoves}": [
+      {
+        "name": "Suiso Enbu",
+        "input": ":qcf::qcf:+[B]+[D] ({use} {directional} {toChangeTrajectory})"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "suihaiko1Use": "requires 1 drink from Suihaiko",
+      "suihaiko3Uses": "requires 3 drinks from Suihaiko"
+    },
+    "portuguese": {
+      "suihaiko1Use": "requer 1 gole do Suihaiko",
+      "suihaiko3Uses": "requer 3 goles do Suihaiko"
+    }
+  }
+}

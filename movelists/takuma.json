@@ -1,0 +1,73 @@
+{
+  "names": {
+    "default": {
+      "roman": "Takuma"
+    },
+    "japan": {
+      "roman": "Takuma",
+      "original": "タクマ・サカザキ"
+    }
+  },
+  "images": {
+    "face": "takuma.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Osotogari",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Ippon Seoi Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Kawarawari",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Ko-oken",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Haoh Shikoken",
+        "input": ":f::hcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Hien Shippukyaku",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Moko Burai Iwa",
+        "input": ":qcb:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Ryuko Ranbu",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+
+      {
+        "name": "Shin Kishin Geki",
+        "input": "{close}, :qcf::qcf:+[A] {or} [C]"
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "name": "Ryuko Ranbu",
+        "input": ":qcf::df::qcb:+[A]+[C]"
+      }
+    ],
+    "{hiddenSuperDesperationMoves}": [
+      {
+        "name": "Kosatsujin",
+        "input": ":b::dp:+[A]+[C]"
+      }
+    ]
+  }
+}

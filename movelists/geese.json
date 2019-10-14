@@ -1,0 +1,70 @@
+{
+  "names": {
+    "default": {
+      "roman": "Geese"
+    },
+    "japan": {
+      "roman": "Geese",
+      "original": "ギース・ハワード"
+    }
+  },
+  "images": {
+    "face": "geese.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Tomoe Nage",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Double Spin Kick",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Uppercut",
+        "input": ":df:+[A]"
+      },
+      {
+        "name": "Sliding Kick",
+        "input": ":df:+[B]"
+      }      
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Reppuken",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Hisho Nichirinzan",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Exploding Ball",
+        "input": ":hcf:+[B]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Deadly Rave",
+        "input": ":hcb::f:+[A] {or} [C]"
+      }      
+    ],
+    "{superDesperationMove}": [
+      {
+        "name": "Raging Storm",
+        "input": "{close}, :db::hcb::df:+[A] {or} [C]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "nearFallenOpponent": "near a knocked down opponent"
+    },
+    "portuguese": {
+      "nearFallenOpponent": "próximo a um oponente caído"
+    }
+  }
+}

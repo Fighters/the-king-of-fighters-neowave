@@ -1,0 +1,187 @@
+{
+  "names": {
+    "default": {
+      "roman": "Angel"
+    },
+    "japan": {
+      "roman": "Angel",
+      "original": "アンヘル"
+    }
+  },
+  "images": {
+    "face": "angel.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Go Go Futen Girl",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Starlit Field",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Senseless Chatter",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "At The Wasteland",
+        "input": "{inAir}, :d:+[D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Red Sky of Yaponesia",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Mad Murder Roulette",
+        "input": "{close}, :rdp:+[B] {or} [D]"
+      },
+      {
+        "{unchainStarter}": [
+          {
+            "name": "Formalists' Blue",
+            "input": ":df::+[B]"
+          },
+          {
+            "name": "Citizen of the World",
+            "input": ":df:+[D]"
+          },
+          {
+            "name": "Senseless Fists",
+            "input": ":b::f:+[B] {or} [D]"
+          },
+          {
+            "name": "Repunkamui",
+            "input": ":qcb:+[A] {or} [C]"
+          },
+          {
+            "name": "Beyond Flames",
+            "input": ":hcf:+[B] {or} [D]"
+          }
+        ]
+      },
+      {
+        "{unchainCircle}": [
+          {
+            "name": "Bye Bye Ryugu",
+            "input": ":u:+[A] {or} [C]"
+          },
+          {
+            "name": "Impotent Symptom",
+            "input": ":d:+[B] {or} [D]"
+          },
+          {
+            "name": "Buggy and Coffin",
+            "input": ":f::+[A] {or} [C]"
+          },
+          {
+            "name": "Shelter from the Storm",
+            "input": ":u:+[B] {or} [D]"
+          },
+          {
+            "name": "A Train to See Cherry Blossoms",
+            "input": ":d:+[A] {or} [C]"
+          },
+          {
+            "name": "With a Lamp for the Pathway",
+            "input": ":f:+[B] {or} [D]"
+          }
+        ]
+      },
+      {
+        "{unchainSpecial}": [
+          {
+            "name": "Omagatoki",
+            "input": ":b: {or} :n: {or} :f:+[B]+[C]+[D]"
+          }
+        ]
+      },
+      {
+        "{unchainFinish}": [
+          {
+            "name": "Crown Under the Sky",
+            "input": ":f::f:+[A]"
+          },
+          {
+            "name": "State of Heat Haze",
+            "input": ":f::f:+[B] {or} [D]"
+          },
+          {
+            "name": "A Full Moon Evening",
+            "input": ":f::f:+[C]"
+          },
+          {
+            "name": "Cosmic Futen Swing",
+            "input": ":qcf:+[A]"
+          },
+          {
+            "name": "Lost Homeland",
+            "input": ":qcf:+[C]"
+          },
+          {
+            "name": "Beyond Flames",
+            "input": ":hcf:+[B] {or} [D]"
+          }
+        ]
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Loyalty Test for Liberalists",
+        "input": ":b::dp:+[A] {or} [C]",
+        "extraInfo": "{dmUnchainFinish}"
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "name": "Loyalty Test for Liberalists",
+        "input": ":b::dp:+[A]+[C]",
+        "extraInfo": "{dmUnchainFinish}"
+      },
+      {
+        "name": "Wind's Fairground",
+        "input": ":b::dp:+[B]+[D] ({angelCounterGround})"
+      },
+      {
+        "name": "Blue Monday Parade",
+        "input": ":b::dp:+[B]+[D] ({angelCounterAir})"
+      }
+    ],
+    "{hiddenSuperDesperationMoves}": [
+      {
+        "name": "Blue Monday Parade",
+        "input": ":b::dp:+[B]+[D] ({angelCounterAir})"
+      },
+      {
+        "name": "Survivors' Banquet",
+        "input": "{press} [B]+[C]+[D]",
+        "after": "Blue Monday Parade"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "unchainStarter": "Unchain Starter",
+      "unchainCircle": "Unchain Circle",
+      "unchainSpecial": "Unchain Special",
+      "unchainFinish": "Unchain Finish",
+      "dmUnchainFinish": "This move can only be used as a Unchain Finish",
+      "angelCounterGround": "activates if Angel is hit by a grounded attack",
+      "angelCounterAir": "activates if Angel is hit by an aerial attack"
+    },
+    "portuguese": {
+      "unchainStarter": "Unchain Starter",
+      "unchainCircle": "Unchain Circle",
+      "unchainSpecial": "Unchain Special",
+      "unchainFinish": "Unchain Finish",
+      "dmUnchainFinish": "Este golpe só pode ser usado como um Unchain Finish",
+      "angelCounterGround": "Este golpe é ativado se Angel for acertada por um ataque terrestre",
+      "angelCounterAir": "Este golpe é ativado se Angel for acertada por um ataque aéreo"
+    }
+  }
+}

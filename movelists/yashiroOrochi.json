@@ -1,0 +1,80 @@
+{
+  "names": {
+    "default": {
+      "roman": "Yashiro Orochi"
+    },
+    "japan": {
+      "roman": "Yashiro Nanakase of the Parched Earth",
+      "original": "乾いた大地の社"
+    }
+  },
+  "images": {
+    "face": "yashiroOrochi.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Baku",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Beki",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Saku",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Bu",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Kujiku Daichi",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Odoru Daichi",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Niragu Daichi",
+        "input": ":hcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Musebu Daichi",
+        "input": ":hcb::f:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Ankoku Jigoku Gokuraku Otoshi",
+        "input": ":hcb::hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Araburu Daichi",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      }
+    ],
+    "{superDesperationMoves}": [
+      {
+        "name": "Ankoku Jigoku Gokuraku Otoshi",
+        "input": ":hcb::hcb:+[A]+[C]"
+      },
+      {
+        "name": "Araburu Daichi",
+        "input": ":qcf::qcf:+[B]+[D]"
+      }
+    ],
+    "{hiddenSuperDesperationMoves}": [
+      {
+        "name": "Armageddon",
+        "input": "[B] > [D] > [A] > [A]+[B]+[C]"
+      }
+    ]
+  }
+}
