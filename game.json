@@ -1,0 +1,715 @@
+{
+  "romans": {
+    "regions": [
+      {
+        "region": "default",
+        "roman": "The King of Fighters Neowave"
+      },
+      {
+        "region": "japan",
+        "roman": "The King of Fighters NEOWAVE",
+        "original": "ザ・キング・オブ・ファイターズ NEOWAVE"
+      }
+    ],
+    "also-known-as": ["kof neowave", "neowave"]
+  },
+  "platforms": [
+    {
+      "platform": "Arcade",
+      "regions": [
+        {
+          "region": "Japan",
+          "roman": "The King of Fighters NEOWAVE",
+          "original": "ザ・キング・オブ・ファイターズ NEOWAVE",
+          "releaseDate": "07-27-2004",
+          "developer": "SNK Playmore",
+          "publisher": "SNK Playmore"
+        },
+        {
+          "region": "United States",
+          "roman": "The King of Fighters NEOWAVE",
+          "releaseDate": "07-30-2004",
+          "developer": "SNK Playmore",
+          "publisher": "SNK Playmore"
+        },
+        {
+          "region": "Europe",
+          "roman": "The King of Fighters NEOWAVE",
+          "releaseDate": "07-30-2004",
+          "developer": "SNK Playmore",
+          "publisher": "SNK Playmore"
+        }
+      ]
+    },
+    {
+      "platform": "PlayStation 2",
+      "regions": [
+        {
+          "region": "Japan",
+          "roman": "The King of Fighters NEOWAVE",
+          "original": "ザ・キング・オブ・ファイターズ NEOWAVE",
+          "releaseDate": "07-21-2005",
+          "developer": "SNK Playmore",
+          "publisher": "SNK Playmore",
+          "coverFront": "ps2-jp-front.webp"
+        },
+        {
+          "region": "Europe",
+          "roman": "The King of Fighters NEOWAVE",
+          "releaseDate": "10-13-2006",
+          "developer": "SNK Playmore",
+          "publisher": "Ignition Entertainment",
+          "coverFront": "ps2-eu-front.webp"
+        }
+      ]
+    },
+    {
+      "platform": "XBox",
+      "regions": [
+        {
+          "region": "Japan",
+          "roman": "The King of Fighters NEOWAVE",
+          "original": "ザ・キング・オブ・ファイターズ NEOWAVE",
+          "releaseDate": "03-30-2006",
+          "developer": "SNK Playmore",
+          "publisher": "SNK Playmore",
+          "coverFront": "xbox-jp-front.webp"
+        },
+        {
+          "region": "United States",
+          "roman": "The King of Fighters NEOWAVE",
+          "releaseDate": "04-18-2006",
+          "developer": "SNK Playmore",
+          "publisher": "SNK Playmore",
+          "coverFront": "xbox-us-front.webp"
+        }
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "K'"
+        },
+        {
+          "region": "japan",
+          "roman": "K'",
+          "original": "ケイ・ダッシュ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Maxima"
+        },
+        {
+          "region": "japan",
+          "roman": "Maxima",
+          "original": "マキシマ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Whip"
+        },
+        {
+          "region": "japan",
+          "roman": "Whip",
+          "original": "ウィップ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Vanessa"
+        },
+        {
+          "region": "japan",
+          "roman": "Vanessa",
+          "original": "ヴァネッサ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Ramon"
+        },
+        {
+          "region": "japan",
+          "roman": "Ramon",
+          "original": "ラモン"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Benimaru Nikaido"
+        },
+        {
+          "region": "japan",
+          "roman": "Benimaru Nikaido",
+          "original": "二階堂 紅丸"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Seth"
+        },
+        {
+          "region": "japan",
+          "roman": "Seth",
+          "original": "セス"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Terry Bogard"
+        },
+        {
+          "region": "japan",
+          "roman": "Terry Bogard",
+          "original": "テリー・ボガード"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Andy Bogard"
+        },
+        {
+          "region": "japan",
+          "roman": "Andy Bogard",
+          "original": "アンディ・ボガード"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Joe Higashi"
+        },
+        {
+          "region": "japan",
+          "roman": "Joe Higashi",
+          "original": "ジョー・ヒガシ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Blue Mary"
+        },
+        {
+          "region": "japan",
+          "roman": "Blue Mary",
+          "original": "ブルー・マリー"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Ryo Sakazaki"
+        },
+        {
+          "region": "japan",
+          "roman": "Ryo Sakazaki",
+          "original": "リョウ・サカザキ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Robert Garcia"
+        },
+        {
+          "region": "japan",
+          "roman": "Robert Garcia",
+          "original": "ロバート・ガルシア"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Takuma Sakazaki"
+        },
+        {
+          "region": "japan",
+          "roman": "Takuma Sakazaki",
+          "original": "タクマ・サカザキ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Leona Heidern"
+        },
+        {
+          "region": "japan",
+          "roman": "Leona Heidern",
+          "original": "レオナ・ハイデルン"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Ralf Jones"
+        },
+        {
+          "region": "japan",
+          "roman": "Ralf Jones",
+          "original": "ラルフ・ジョーンズ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Clark Still"
+        },
+        {
+          "region": "japan",
+          "roman": "Clark Still",
+          "original": "クラーク・スティル"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Athena Asamiya"
+        },
+        {
+          "region": "japan",
+          "roman": "Athena Asamiya",
+          "original": "麻宮 アテナ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Sie Kensou"
+        },
+        {
+          "region": "japan",
+          "roman": "Sie Kensou",
+          "original": "椎 拳崇"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Chin Gentsai"
+        },
+        {
+          "region": "japan",
+          "roman": "Chin Gentsai",
+          "original": "鎮 元斎"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Mai Shiranui"
+        },
+        {
+          "region": "japan",
+          "roman": "Mai Shiranui",
+          "original": "不知火 舞"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Yuri Sakazaki"
+        },
+        {
+          "region": "japan",
+          "roman": "Yuri Sakazaki",
+          "original": "ユリ・サカザキ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Kim Kaphwan"
+        },
+        {
+          "region": "japan",
+          "roman": "Kim Kaphwan",
+          "original": "キム・カッファン"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Chang Koehan"
+        },
+        {
+          "region": "japan",
+          "roman": "Chang Koehan",
+          "original": "チャン・コーハン"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Choi Bounge"
+        },
+        {
+          "region": "japan",
+          "roman": "Choi Bounge",
+          "original": "チョイ・ボンゲ"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Kyo Kusanagi"
+        },
+        {
+          "region": "japan",
+          "roman": "Kyo Kusanagi",
+          "original": "草薙 京"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Iori Yagami"
+        },
+        {
+          "region": "japan",
+          "roman": "Iori Yagami",
+          "original": "八神 庵"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Kula Diamond"
+        },
+        {
+          "region": "japan",
+          "roman": "Kula Diamond",
+          "original": "クーラ・ダイアモンド"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Goro Daimon"
+        },
+        {
+          "region": "japan",
+          "roman": "Goro Daimon",
+          "original": "大門 五郎"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "May Lee"
+        },
+        {
+          "region": "japan",
+          "roman": "May Lee",
+          "original": "メイ・リー"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Angel"
+        },
+        {
+          "region": "japan",
+          "roman": "Angel",
+          "original": "アンヘル"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Omega Rugal"
+        },
+        {
+          "region": "japan",
+          "roman": "Omega Rugal",
+          "original": "オメガ・ルガール"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Yashiro Nanakase"
+        },
+        {
+          "region": "japan",
+          "roman": "Yashiro Nanakase",
+          "original": "七枷 社"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Shermie"
+        },
+        {
+          "region": "japan",
+          "roman": "Shermie",
+          "original": "シェルミー"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Chris"
+        },
+        {
+          "region": "japan",
+          "roman": "Chris",
+          "original": "クリス"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Yashiro Orochi"
+        },
+        {
+          "region": "japan",
+          "roman": "Yashiro Nanakase of the Parched Earth",
+          "original": "乾いた大地の社"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Shermie Orochi"
+        },
+        {
+          "region": "japan",
+          "roman": "Shermie of the Savagely Crazed Flash of Lightning",
+          "original": "荒れ狂う稲光のシェルミー"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Chris Orochi"
+        },
+        {
+          "region": "japan",
+          "roman": "Chris of the Flames of Destiny",
+          "original": "炎のさだめのクリス"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Ryuji Yamazaki"
+        },
+        {
+          "region": "japan",
+          "roman": "Ryuji Yamazaki",
+          "original": "山崎 竜二"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Billy Kane"
+        },
+        {
+          "region": "japan",
+          "roman": "Billy Kane",
+          "original": "ビリー・カーン"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Mature"
+        },
+        {
+          "region": "japan",
+          "roman": "Mature",
+          "original": "マチュア"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Vice"
+        },
+        {
+          "region": "japan",
+          "roman": "Vice",
+          "original": "バイス"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Kusanagi"
+        },
+        {
+          "region": "japan",
+          "roman": "Kusanagi",
+          "original": "KUSANAGI"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Geese Howard"
+        },
+        {
+          "region": "japan",
+          "roman": "Geese Howard",
+          "original": "ギース・ハワード"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Saisyu Kusanagi"
+        },
+        {
+          "region": "japan",
+          "roman": "Saisyu Kusanagi",
+          "original": "草薙 柴舟"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Jhun Hoon"
+        },
+        {
+          "region": "japan",
+          "roman": "Jhun Hoon",
+          "original": "ジョン・フーン"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "Shingo Yabuki"
+        },
+        {
+          "region": "japan",
+          "roman": "Shingo Yabuki",
+          "original": "矢吹 真吾"
+        }
+      ]
+    },
+    {
+      "regions": [
+        {
+          "region": "default",
+          "roman": "King"
+        },
+        {
+          "region": "japan",
+          "roman": "King",
+          "original": "キング"
+        }
+      ]
+    }
+  ]
+}
