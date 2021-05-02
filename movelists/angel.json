@@ -77,7 +77,7 @@
           },
           {
             "name": "Buggy and Coffin",
-            "input": ":f::+[A] {or} [C]"
+            "input": ":f:+[A] {or} [C]"
           },
           {
             "name": "Shelter from the Storm",
