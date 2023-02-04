@@ -14,7 +14,7 @@
   "moves": {
     "{normalThrows}": [
       {
-        "name": "Hiuchi Tsuchi",
+        "name": "Hikiri Tsuchi",
         "input": "{close}, :b: {or} :f:+[C]"
       },
       {
@@ -24,11 +24,11 @@
     ],
     "{commandMoves}": [
       {
-        "name": "Ge-Shiki: Gotsuchi",
+        "name": "Ge-Shiki: Goutsuchi",
         "input": ":f:+[A]"
       },
       {
-        "name": "Ge-Shiki: Atamashi",
+        "name": "Ge-Shiki: Zutsui",
         "input": ":f:+[B]"
       }
     ],
@@ -46,7 +46,7 @@
         "input": ":dp:+[B] {or} [D]"
       },
       {
-        "name": "720 Shiki: Homuragasane",
+        "name": "720 Shiki: Enjou",
         "input": ":qcb:+[A] {or} [C] ({upTo2x})"
       },
       {
